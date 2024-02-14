@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="PPFS2023" constructor="GridCustomizerControl" version="0.0.3" display-name-key="DianaGridCustomizerControl" description-key="DianaGridCustomizerControl description" control-type="virtual">
+    
+    <property name="EventName" display-name-key="EventName" description-key="EventName" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="9.4.0" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    <external-service-usage enabled="false">    </external-service-usage>
+  </control>
+</manifest>
